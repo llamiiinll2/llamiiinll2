@@ -1,6 +1,27 @@
 .App {
   text-align: center;
 }
+.container {
+ width: 100%;
+ max-width: 500px;
+ margin: 0 auto;
+ padding: 0 10px;
+}
+.main {
+  flex: 1;
+  flex-direction: column;
+
+  display: flex;
+}
+.app {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #bddbf9;
+  height: 100vh;
+}
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +57,24 @@
     transform: rotate(360deg);
   }
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 30px;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.form span {
+  font-size: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.form input {
+  width: 100%;
+}
+
