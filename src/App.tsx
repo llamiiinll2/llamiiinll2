@@ -13,7 +13,7 @@ import ReactMemo from "./Page/ReactMemo";
 import Register from "./Page/Register";
 import Login from "./Page/LogIn";
 import { Header, Button } from "./components";
-
+import FormPage from "./Page/FormPage";
 const App = (props: any) => {
    //const protectedRouter = (Component: React.FC) => {
      //const token = localStorage.getItem("token");
@@ -34,6 +34,7 @@ const App = (props: any) => {
           <Route path="/register" element={<Register />}></Route>
           <Route path="auth/login" element={<Login />}></Route>
           <Route path="/" element={<Home/>}></Route>
+          <Route path="/formpage" element={<FormPage/>}></Route>
 
         </Routes>
       </main>

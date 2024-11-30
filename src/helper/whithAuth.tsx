@@ -4,7 +4,7 @@ import Login from "../Page/LogIn";
 const withAuth = (Component: React.FC) => {
   let user = localStorage.getItem("user");
   if (user) {
-     user = JSON.parse(user);
+  //   user = JSON.parse(user);
   }
 
   return (props: any) => {
